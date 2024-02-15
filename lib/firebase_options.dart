@@ -3,7 +3,6 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
-import "package:zaisystems/consts/env.dart";
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -51,20 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: apiKeyAndroid,
-    appId: appIdAndroid,
-    messagingSenderId: messagingSenderIdAndroid,
-    projectId: projectIdAndroid,
-    storageBucket: storageBucketAndroid,
+    apiKey: 'AIzaSyAigxc3INuLwYdlL9AT39S8fwsvw8x9nm4',
+    appId: '1:365980802742:android:280f337289ca9e80889017',
+    messagingSenderId: '365980802742',
+    projectId: 'zai-systems-app',
+    storageBucket: 'zai-systems-app.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: apiKeyIos,
-    appId: appIdIos,
-    messagingSenderId: messagingSenderIdIos,
-    projectId: projectIdIos,
-    storageBucket: storageBucketIos,
-    iosClientId: iosClientIdIos,
-    iosBundleId: iosBundleIdIos,
+    apiKey: 'AIzaSyA-XtR_c5zLrffHThAKiJwxaThEIo20SIE',
+    appId: '1:365980802742:ios:e8d2131ad79415f4889017',
+    messagingSenderId: '365980802742',
+    projectId: 'zai-systems-app',
+    storageBucket: 'zai-systems-app.appspot.com',
+    iosBundleId: 'zaisystems.zaisystems',
   );
 }

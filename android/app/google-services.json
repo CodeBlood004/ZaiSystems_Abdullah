@@ -1,51 +1,26 @@
 {
   "project_info": {
-    "project_number": "382123839385",
-    "project_id": "zaisystems-smc-pvt-ltd",
-    "storage_bucket": "zaisystems-smc-pvt-ltd.appspot.com"
+    "project_number": "365980802742",
+    "project_id": "zai-systems-app",
+    "storage_bucket": "zai-systems-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:382123839385:android:16ec7128258e96f366cd08",
+        "mobilesdk_app_id": "1:365980802742:android:280f337289ca9e80889017",
         "android_client_info": {
           "package_name": "zaisystems.zaisystems"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "382123839385-e5v171s8f8pae4hts44igdm94diqoqq6.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "zaisystems.zaisystems",
-            "certificate_hash": "51f6e61e9b769b8f7edc2effb9bbfd89dd2e782d"
-          }
-        },
-        {
-          "client_id": "382123839385-k1n0mlrsejnti4791ge05a94ou23gfp8.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBRukMfteVMFhv00iK3HbKmUOw3cGcTP2U"
+          "current_key": "AIzaSyAigxc3INuLwYdlL9AT39S8fwsvw8x9nm4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "382123839385-k1n0mlrsejnti4791ge05a94ou23gfp8.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "382123839385-0ro67hstnbtnu657s3ll6fgs488m497v.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "zaisystems.zaisystems"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
